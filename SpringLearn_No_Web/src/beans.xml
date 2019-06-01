@@ -8,6 +8,11 @@
     <bean id = "userService" class = "edu.xpu.service.UserServiceImpl">
 
         <!--依赖注入数据,调用属性的set方法-->
+        <!-- spring内部创建对象的原理：
+            1.解析xml文件，获取类名，id，属性
+            2.通过反射，用类名创建对象
+            3.给创建的对象赋值
+        -->
         <property name="name" value="zhangsan"></property>
         <!--相当于UserService service = new UserServiceImpl();service.setName("");-->
 
