@@ -17,7 +17,7 @@ public class Lesson02 {
         // 用userService 从spring的容器中获取对象
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         IUserService userService1 = (IUserService)context.getBean("userService");
-        IUserService userService2 = (IUserService)context.getBean("userService");
+
         userService1.add();
 
         System.out.println(userService1);
