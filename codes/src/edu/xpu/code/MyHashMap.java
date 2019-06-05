@@ -12,7 +12,7 @@ class MyHashMap<K, V> extends HashMap<K,V> {
         if (!i.hasNext())
             return "";
         StringBuffer buffer = new StringBuffer();
-        buffer.append("{" +"\n");//注意此程序与源代码的区别
+        buffer.append("{" +"\n");
         for (;;) {
             Map.Entry<K, V> me = i.next();
             K key = me.getKey();

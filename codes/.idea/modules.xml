@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TestHash.iml" filepath="$PROJECT_DIR$/TestHash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codes.iml" filepath="$PROJECT_DIR$/codes.iml" />
     </modules>
   </component>
 </project>

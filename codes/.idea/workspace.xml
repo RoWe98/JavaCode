@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2faf0a2-9eb0-4036-9c1b-379150fe6443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/xpu/dataStructure/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestHash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestHash/edu/xpu/code/MyHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestHash/edu/xpu/code/TestHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/xpu/code/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xpu/code/MyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestHash/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/codes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/out/production/TestHash/edu/xpu/code/MyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/out/production/TestHash/edu/xpu/code/TestHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/src/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/src/edu/xpu/code/MyHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestHash/src/edu/xpu/code/TestHash.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +24,44 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/xpu/code/TestHash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/xpu/dataStructure/SingleLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+              <folding>
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#1875#1876#0" expanded="true" />
+                <element signature="e#1909#1910#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/xpu/code/MyHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,7 +84,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="152" />
+    <option name="x" value="144" />
     <option name="y" value="32" />
     <option name="width" value="1456" />
     <option name="height" value="784" />
@@ -55,7 +95,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -65,6 +120,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -126,17 +182,18 @@
       <updated>1559652272940</updated>
       <workItem from="1559652276858" duration="740000" />
       <workItem from="1559727800580" duration="111000" />
-      <workItem from="1559737402982" duration="277000" />
+      <workItem from="1559737402982" duration="234000" />
+      <workItem from="1559737712642" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1128000" />
+    <option name="totallyTimeSpent" value="1093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="32" width="1456" height="784" extended-state="0" />
+    <frame x="144" y="32" width="1456" height="784" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25671852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2602546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -145,7 +202,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2601156" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2601156" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -181,7 +238,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/xpu/code/TestHash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
+        <state relative-caret-position="540">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -198,7 +255,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/xpu/dataStructure/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
+        <state relative-caret-position="606">
           <caret line="116" selection-start-line="116" selection-end-line="116" />
           <folding>
             <element signature="e#354#355#0" expanded="true" />
