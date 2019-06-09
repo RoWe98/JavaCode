@@ -7,103 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="603b0afd-2282-4922-821f-5eeb46a53838" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Gobang_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gobang.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/ButtonListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/ChessPosition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/FrameListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/GoBangconfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/GoBangframe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xpu/chess/ButtonLIstener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xpu/chess/ChessPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xpu/chess/FrameListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xpu/chess/GoBangconfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xpu/chess/GoBangframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/bin/ButtonListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/bin/ChessPosition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/bin/GoBangconfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/bin/GoBangframe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/bin/LoginUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/bin/MyJPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/bin/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/bin/frameListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/out/production/GoBang3/ButtonListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/out/production/GoBang3/ChessPosition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/out/production/GoBang3/GoBangconfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/out/production/GoBang3/GoBangframe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/out/production/GoBang3/LoginUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/out/production/GoBang3/MyJPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/out/production/GoBang3/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/out/production/GoBang3/frameListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/BackButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/Battle1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/Battle2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/Button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/ChessBoard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/LoginButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/LoginPicture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/LoginPicture2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/LoseButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/MessagePictrue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/PlayButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/StartButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/UserLevel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/UserName.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/UserPicture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/UserSex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/pic/white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/src/ButtonListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/src/ChessPosition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/src/GoBangconfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/src/GoBangframe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/src/LoginUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/src/MyJPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/src/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBang3/src/frameListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/bin/ButtonListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/bin/ChessPosition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/bin/GoBangconfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/bin/GoBangframe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/bin/frameListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/src/ButtonListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/src/ChessPosition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/src/GoBangconfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/src/GoBangframe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI/src/frameListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/bin/ButtonListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/bin/ChessPosition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/bin/GoBangconfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/bin/GoBangframe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/bin/frameListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/chessboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/chessboard1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/src/ButtonListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/src/ChessPosition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/src/GoBangconfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/src/GoBangframe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/src/frameListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoBangAI2/white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/操作指南.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/ButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/ChessPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/FrameListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/GoBangconfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/GoBangframe.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,20 +23,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/GoBangframe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="143" selection-start-line="143" selection-end-line="143" />
+            <state relative-caret-position="261">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#686#701#0" expanded="true" />
-                <element signature="e#852#868#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ButtonLIstener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+            <state>
+              <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/GoBangconfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state>
               <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
@@ -156,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ChessPosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state>
               <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
@@ -165,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/FrameListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2774">
+            <state>
               <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -187,7 +94,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -201,7 +108,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="124" />
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="823" />
@@ -214,36 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Gobang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoBang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gobang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoBang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gobang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoBang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chess" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gobang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoBang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chess" type="462c0819:PsiDirectoryNode" />
-              <item name="ButtonLIstener.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -252,11 +131,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -306,28 +187,23 @@
       <option name="presentableId" value="Default" />
       <updated>1559904200624</updated>
       <workItem from="1559904202148" duration="4859000" />
+      <workItem from="1560010036689" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4859000" />
+    <option name="totallyTimeSpent" value="5107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="23" width="1366" height="823" extended-state="0" />
+    <frame x="124" y="23" width="1366" height="823" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20392749" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20694864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32968536" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.34336525" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32968536" />
@@ -335,72 +211,70 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34336525" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32968536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ButtonListener.java">
+    <entry file="file://$PROJECT_DIR$/src/ButtonListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/GoBangframe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ChessPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/FrameListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2774">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        <state relative-caret-position="261">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ButtonLIstener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/GoBangconfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state>
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ButtonLIstener.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ChessPosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/GoBangframe.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/FrameListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        <state>
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#686#701#0" expanded="true" />
-            <element signature="e#852#868#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
           </folding>
         </state>
       </provider>
