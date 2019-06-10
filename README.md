@@ -1,4 +1,8 @@
 # JavaCode
 JavaCode
 
-including my code 
+including my code
+
+# END
+
+[my Blog](www.luoshaoqi.cn) 
