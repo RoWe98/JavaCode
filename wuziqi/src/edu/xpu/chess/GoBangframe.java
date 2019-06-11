@@ -2,11 +2,7 @@ package edu.xpu.chess;
 
 //构建五子棋界面GoBangframe类
 
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
+import javax.swing.*;
 import java.awt.Dimension;
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -120,6 +116,8 @@ public class GoBangframe extends JPanel implements GoBangconfig{
         Dimension dim3=new Dimension(550,0);//设置左半部分的大小
         Dimension dim2=new Dimension(140,40);//设置右边按钮组件的大小
 
+
+
         //实现左边的界面，把GoBangframe的对象添加到框架布局的中间部分
         //已经有一个GoBangframe对象了，表示当前类的对象是this
         this.setPreferredSize(dim3);//设置下棋界面的大小
@@ -134,6 +132,9 @@ public class GoBangframe extends JPanel implements GoBangconfig{
         jp.setBackground(Color.white);//设置右边的界面颜色为白色
         jf.add(jp,BorderLayout.EAST);//添加到框架布局的东边部分
         jp.setLayout(new FlowLayout());//设置JPanel为流式布局
+
+
+
 
         //接下来我们需要把按钮等组件依次加到那个JPanel上面
         //设置按钮数组
@@ -154,6 +155,12 @@ public class GoBangframe extends JPanel implements GoBangconfig{
         JComboBox box=new JComboBox(boxname);
         jp.add(box);
 
+
+        String info = "作者：RoWe98";
+        JLabel label = new JLabel(info);
+
+        jp.add(label);
+
         //按钮监控类
         ButtonListener butListen=new ButtonListener(this,box);
         //对每一个按钮都添加状态事件的监听处理机制
@@ -167,6 +174,8 @@ public class GoBangframe extends JPanel implements GoBangconfig{
         FrameListener fl=new FrameListener();
         fl.setGraphics(this);//获取画笔对象
         this.addMouseListener(fl);
+
+
 
         jf.setVisible(true);
     }
