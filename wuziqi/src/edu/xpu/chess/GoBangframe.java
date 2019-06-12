@@ -151,7 +151,7 @@ public class GoBangframe extends JPanel implements GoBangconfig{
         }
 
         //设置选项按钮
-        String[] boxname= {"人人","人机"};
+        String[] boxname= {"人机","人人"};
         JComboBox box=new JComboBox(boxname);
         jp.add(box);
 
