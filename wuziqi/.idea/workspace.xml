@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="603b0afd-2282-4922-821f-5eeb46a53838" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SpringLearn_No_Web/SpringLearn_No_Web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringLearn_No_Web/SpringLearn_No_Web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Gobang_jar/Gobang.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Gobang_jar/Gobang.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/GoBangframe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Gobang/edu/xpu/chess/GoBangframe.class" afterDir="false" />
@@ -21,66 +22,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/GoBangframe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2610">
-              <caret line="154" column="42" selection-start-line="154" selection-start-column="42" selection-end-line="154" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ButtonLIstener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/GoBangconfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ChessPosition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/FrameListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="166" column="66" lean-forward="true" selection-start-line="166" selection-start-column="66" selection-end-line="166" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,7 +46,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="126" />
+    <option name="x" value="133" />
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="823" />
@@ -118,7 +59,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,11 +78,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chess" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wuziqi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wuziqi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chess" type="462c0819:PsiDirectoryNode" />
+              <item name="ButtonLIstener.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,16 +157,19 @@
       <workItem from="1560167459340" duration="30000" />
       <workItem from="1560218940830" duration="780000" />
       <workItem from="1560228244628" duration="272000" />
+      <workItem from="1560830634872" duration="55000" />
+      <workItem from="1560837172969" duration="1920000" />
+      <workItem from="1560840537966" duration="482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6189000" />
+    <option name="totallyTimeSpent" value="8646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="23" width="1366" height="823" extended-state="0" />
+    <frame x="133" y="23" width="1366" height="823" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21601209" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22507553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -254,16 +205,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ButtonListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/GoBangframe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="154" column="42" selection-start-line="154" selection-start-column="42" selection-end-line="154" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ButtonLIstener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
@@ -281,21 +222,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ChessPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/FrameListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="166" column="66" lean-forward="true" selection-start-line="166" selection-start-column="66" selection-end-line="166" selection-end-column="66" />
+        <state relative-caret-position="404">
+          <caret line="166" column="66" selection-start-line="166" selection-start-column="66" selection-end-line="166" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/ChessPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/xpu/chess/GoBangframe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

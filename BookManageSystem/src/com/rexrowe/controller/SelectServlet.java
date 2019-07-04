@@ -1,0 +1,29 @@
+package com.rexrowe.controller;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.io.IOException;
+
+@WebServlet(name = "SelectServlet",urlPatterns = "/SelectServlet")
+public class SelectServlet extends HttpServlet {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String flag = request.getParameter("type");
+        if(flag.equals("tech")){
+            HttpSession session = request.getSession();
+            session.setAttribute("flag",flag);
+            response.sendRedirect("bookList.jsp");
+        }else if(flag.equals("renwen")){
+            HttpSession session = request.getSession();
+            session.setAttribute("flag",flag);
+            response.sendRedirect("bookList.jsp");
+        }
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+    }
+}

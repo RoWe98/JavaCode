@@ -131,6 +131,7 @@ public class GoBangframe extends JPanel implements GoBangconfig{
         jp.setPreferredSize(dim1);//设置JPanel的大小
         jp.setBackground(Color.white);//设置右边的界面颜色为白色
         jf.add(jp,BorderLayout.EAST);//添加到框架布局的东边部分
+
         jp.setLayout(new FlowLayout());//设置JPanel为流式布局
 
 
@@ -157,9 +158,13 @@ public class GoBangframe extends JPanel implements GoBangconfig{
 
 
         String info = "作者：RoWe98";
-        JLabel label = new JLabel(info);
+        String info2 = "Github:RoWe98";
+        JLabel label1 = new JLabel(info);
+        JLabel label2 = new JLabel(info2);
 
-        jp.add(label);
+
+        jp.add(label1);
+        jp.add(label2);
 
         //按钮监控类
         ButtonListener butListen=new ButtonListener(this,box);

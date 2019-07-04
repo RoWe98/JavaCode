@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="annotations-api">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/annotations-api.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/catalina-ant.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/catalina-ha.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/catalina-tribes.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/catalina.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/ecj-4.4.2.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/el-api.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/jasper-el.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/jasper.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/jsp-api.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/servlet-api.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/tomcat-api.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/tomcat-coyote.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/tomcat-jdbc.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/tomcat-util.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/tomcat7-websocket.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/websocket-api.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/apache-tomcat-7.0.94/lib/mysql-connector-java-5.1.47.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
