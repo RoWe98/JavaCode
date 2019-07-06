@@ -10,14 +10,16 @@ import java.sql.*;
 
 public class DbUtil{
 
-    private static String driver;
-    private static String url;
-    private static String userName;
-    private static String password;
+    //jdbc
+    private static String driver; //驱动
+    private static String url;    //url连接
+    private static String userName; //用户名
+    private static String password; //密码
 
+
+    //获取数据库配置信息并读取
     static {
         try{
-
             Properties prop = new Properties();
             InputStream in = DbUtil.class.getClassLoader().getResourceAsStream("jdbc.properties");
             prop.load(in);
@@ -35,8 +37,8 @@ public class DbUtil{
     public static Connection getConn(){
         Connection conn = null;
         try {
-            Class.forName(driver);
-            conn=DriverManager.getConnection(url,userName,password);
+            Class.forName(driver); //读取驱动
+            conn=DriverManager.getConnection(url,userName,password); //从驱动创建连接
         }catch (Exception e){
             e.printStackTrace();
         }

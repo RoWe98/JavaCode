@@ -2,9 +2,12 @@ package com.rexrowe.bo;
 
 import com.rexrowe.dao.BookDAO;
 import com.rexrowe.dao.DbUtil;
+import com.rexrowe.dao.UserDAO;
 import com.rexrowe.pojo.BookVO;
+import com.rexrowe.pojo.UserVO;
 
 import javax.servlet.http.HttpSession;
+import java.awt.print.Book;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -27,58 +30,119 @@ public class BookBo {
 
 
     //获取借书的书的编码
-    public String get_Borrow_BookInfo(String username){
+    public List get_Borrow_BookInfo(String username,String user_borrow_limit){
+
 
         String borrow_BookInfo = "";
+        String borrow_table_id = "";
+
+        UserDAO userDAO = new UserDAO();
+        UserVO userVO_borrow_num = userDAO.get_borrow_num(username);
+        String have_borrow_num = userVO_borrow_num.getBorrow_num();
+        String borrow_num = have_borrow_num;
+        List<String> list = new ArrayList<>();
+
+        //通过最多可以借的书判断往哪张表插入数据
+        if(user_borrow_limit.equals("10")) {
+            borrow_table_id = "`bookUser_professor`";
+            System.out.println(borrow_table_id);
+        }else if(user_borrow_limit.equals("8")){
+            borrow_table_id = "`bookUser_teacher`";
+        }else if(user_borrow_limit.equals("6")){
+            borrow_table_id = "`bookUser_helpteacher`";
+        }else if(user_borrow_limit.equals("5")){
+            borrow_table_id = "`bookUser_stu`";
+        }
+
+        String id = "'"+username+"'";
 
         Connection conn = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
         try{
             conn = DbUtil.getConn();
-            String sql = "select borrow_book_id from bookUser where id=?;";
+
+            String sql = "select * from "+borrow_table_id+" "+"where id = "+id+";";
             ps=conn.prepareStatement(sql);
-            ps.setString(1,username);
+            //ps.setString(1,borrow_table_id);
             rs=ps.executeQuery();
-            while(rs.next()){
-                String borrow = rs.getString(1);
-                borrow_BookInfo = borrow;
+            System.out.println(borrow_num);
+            if(borrow_table_id.equals("`bookUser_professor`")) {
+                //List<String> list = new ArrayList<>();
+                while (rs.next()) {
+                    String user_id = rs.getString(1);
+                    //borrow_BookInfo = borrow;
+                    for(int i=2;i<=Integer.parseInt(borrow_num)+1;i++){
+                        String book_info = rs.getString(i);
+                        System.out.println("Add book_info");
+                        list.add(book_info);
+                    }
+                    System.out.println(list);
+                }
+            }else if(borrow_table_id.equals("`bookUser_teacher`")){
+                //List<String> list = new ArrayList<>();
+                while (rs.next()) {
+                    String user_id = rs.getString(1);
+                    //borrow_BookInfo = borrow;
+                    for(int i=2;i<=Integer.parseInt(borrow_num)+1;i++){
+                        String book_info = rs.getString(i);
+                        System.out.println("Add book_info");
+                        list.add(book_info);
+                    }
+                    System.out.println(list);
+                }
+            }else if(borrow_table_id.equals("`bookUser_helpteacher`")){
+                //List<String> list = new ArrayList<>();
+                while (rs.next()) {
+                    String user_id = rs.getString(1);
+                    //borrow_BookInfo = borrow;
+                    for(int i=2;i<=Integer.parseInt(borrow_num)+1;i++){
+                        String book_info = rs.getString(i);
+                        System.out.println("Add book_info");
+                        list.add(book_info);
+                    }
+                    System.out.println(list);
+                }
+            }else if(borrow_table_id.equals("`bookUser_stu`")){
+                //List<String> list = new ArrayList<>();
+                while (rs.next()) {
+                    String user_id = rs.getString(1);
+                    //borrow_BookInfo = borrow;
+                    for(int i=2;i<=Integer.parseInt(borrow_num)+1;i++){
+                        String book_info = rs.getString(i);
+                        System.out.println("Add book_info");
+                        list.add(book_info);
+                    }
+                    System.out.println(list);
+                }
             }
 
         }catch (Exception e){
             e.printStackTrace();
         }
-
-        return borrow_BookInfo;
+        System.out.println(borrow_BookInfo);
+        return list;
 
     }
 
-    //获取借的书
-    public List show_Borrow_List(String borrow_BookInfo){
+    //获取借的书并返回一个list
+    public List show_Borrow_List(List list){
 
-        List<BookVO> list = new ArrayList<>();
+        List<BookVO> book_list = new ArrayList<>();
 
-        Connection conn = null;
-        PreparedStatement ps = null;
-        ResultSet rs = null;
-        BookDAO bookDAO = new BookDAO();
-        BookVO bookVO = new BookVO("","","","");
-        String bookinfo[] = borrow_BookInfo.split(",");
+        int list_length = list.size();
 
-        for(int i=0;i<bookinfo.length;i++){
-
-            String info_borrow[]  =bookinfo[i].split(":");
-            if(i>0) {
-                if(bookinfo[i]!=bookinfo[i-1]) {
-                    for (int j = 0; j < info_borrow.length; j++) {
-                        bookVO = bookDAO.getbookInfo(info_borrow[0], info_borrow[1]);
-                        BookVO bookV_new = new BookVO(bookVO.getId(), bookVO.getName(), bookVO.getAuthor(), bookVO.getPublish());
-                        list.add(bookV_new);
-                    }
-                }
-            }
+        for(int i=0;i<list_length;i++){
+            BookVO bookvo_info = new BookVO("","","","");
+            BookDAO bookDAO = new BookDAO();
+            String book_info = (String)list.get(i);
+            String book_info_arr[] = book_info.split(":");
+            String book_info_id = book_info_arr[0];
+            String book_info_table = book_info_arr[1];
+            bookvo_info = bookDAO.getbookInfo_borrow(book_info_id,book_info_table);
+            book_list.add(bookvo_info);
         }
 
-        return list;
+        return book_list;
     }
 }

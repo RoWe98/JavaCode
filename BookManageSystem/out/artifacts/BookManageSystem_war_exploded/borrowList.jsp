@@ -32,6 +32,8 @@
     String table_flag = (String)session.getAttribute("flag");
     UserVO userInfo = (UserVO)session.getAttribute("userInfo");
     String user_id = userInfo.getUsername();
+    String borror_limit = userInfo.getBorrow_limit();
+    String borror_num = userInfo.getBorrow_num();
     BookBo bookBo = new BookBo();
     int bookNum = bookBo.getBookNum(table_flag);
 %>
@@ -49,8 +51,8 @@
         </tr>
         <tr>
             <%
-                BookDAO bookDAO=new BookDAO();
-                String borrow_BookInfo = bookBo.get_Borrow_BookInfo(user_id);
+                //BookDAO bookDAO=new BookDAO();
+                List borrow_BookInfo = bookBo.get_Borrow_BookInfo(user_id,borror_limit);
                 List<BookVO> list = bookBo.show_Borrow_List(borrow_BookInfo);
                 for(BookVO tl:list)
                 {%>

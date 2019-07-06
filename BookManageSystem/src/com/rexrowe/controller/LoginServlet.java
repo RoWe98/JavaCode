@@ -5,7 +5,6 @@ import com.rexrowe.bo.UserBo;
 import com.rexrowe.dao.BookDAO;
 import com.rexrowe.dao.UserDAO;
 import com.rexrowe.pojo.UserVO;
-import org.apache.catalina.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -50,12 +49,10 @@ public class LoginServlet extends HttpServlet {
                 userType_flag = "教授";
             }else if(userType_flag.equals("2")){
                 userType_flag = "讲师";
-            }else if (!userType_flag.equals("3")) {
-                if(userType_flag.equals("4")) {
-                    userType_flag = "学生";
-                }
-            } else {
+            }else if (userType_flag.equals("3")) {
                 userType_flag = "助教";
+            }else if (userType_flag.equals("4")){
+                userType_flag = "学生";
             }
 
             session.setAttribute("User",uservo);

@@ -41,6 +41,39 @@ public class BookDAO {
         return bookVO;
     }
 
+
+    //获取书的信息_借阅
+    public BookVO getbookInfo_borrow(String book_id,String table_flag){
+        Connection conn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        String book_id_sql = "'"+book_id+"'";
+        System.out.println(book_id);
+        BookVO bookVO = new BookVO("","","","");
+        try{
+            conn = DbUtil.getConn();
+            //select * from book_tech where id = '1';
+            String sql = "select * from book"+"_"+table_flag+" where id ="+book_id_sql+";";
+            System.out.println(sql);
+            ps=conn.prepareStatement(sql);
+            rs=ps.executeQuery();
+            while(rs.next()) {
+                String book_Name = rs.getString(2);
+                String book_Author = rs.getString(3);
+                String book_Publish = rs.getString(4);
+                bookVO = new BookVO(book_id,book_Name,book_Author,book_Publish);
+                bookVO.setId(book_id);
+                bookVO.setName(book_Name);
+                bookVO.setAuthor(book_Author);
+                bookVO.setPublish(book_Publish);
+
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return bookVO;
+    }
+
     //查询书本的数量
     public ArrayList<String> getbookNum(String table_flag){
 
@@ -93,11 +126,4 @@ public class BookDAO {
         return list;
     }
 
-//    public List show_BorrowedBook_Info(String username,UserDAO userDAO){
-//        UserVO userVO = userDAO.get_borrow_book_id(username);
-//        String book_id[] = userVO.getBorrow_book_id().split(":");
-//        String id = book_id[0];
-//        String table_flag = book_id[1];
-//        return List<String>;
-//    }
 }

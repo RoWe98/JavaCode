@@ -10,6 +10,7 @@ public class UserBo {
 
     UserDAO userDAO = new UserDAO();
 
+    //判断登录
     public boolean checkUser(String username,String password){
 
         boolean result =false;

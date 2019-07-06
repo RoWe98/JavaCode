@@ -32,25 +32,27 @@
     String table_flag = (String)session.getAttribute("flag");
     UserVO userInfo = (UserVO)session.getAttribute("userInfo");
     String user_id = userInfo.getUsername();
+    String borror_limit = userInfo.getBorrow_limit();
+    String borror_num = userInfo.getBorrow_num();
     BookBo bookBo = new BookBo();
     int bookNum = bookBo.getBookNum(table_flag);
+    int still_borrow = Integer.parseInt(borror_limit)-Integer.parseInt(borror_num);
 %>
 <form action = "BorrowServlet" method = "POST">
     <table font-size: 30px>
         <tr>
-            <td>当前借阅的书本</td>
+            <td>当前借阅的书本,你还可以借<%=still_borrow%>本书</td>
         </tr>
         <tr>
             <td>书本id</td>
             <td>书名</td>
             <td>作者<td>
             <td>出版社</td>
-            <td>是否借阅</td>
         </tr>
         <tr>
             <%
-                BookDAO bookDAO=new BookDAO();
-                String borrow_BookInfo = bookBo.get_Borrow_BookInfo(user_id);
+                //BookDAO bookDAO=new BookDAO();
+                List borrow_BookInfo = bookBo.get_Borrow_BookInfo(user_id,borror_limit);
                 List<BookVO> list = bookBo.show_Borrow_List(borrow_BookInfo);
                 for(BookVO tl:list)
                 {%>

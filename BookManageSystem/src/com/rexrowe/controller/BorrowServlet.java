@@ -22,8 +22,13 @@ public class BorrowServlet extends HttpServlet {
         UserVO userInfo = (UserVO)session.getAttribute("userInfo");
         String user_id = userInfo.getUsername();
         System.out.println(user_id);
+
+
+        String user_borrow_limit = userInfo.getBorrow_limit();
+        String user_borrow_num = userInfo.getBorrow_num();
+
         UserDAO userDAO = new UserDAO();
-        userDAO.BorrowBook(user_id,book_id,table_flag);
+        userDAO.BorrowBook(user_id,book_id,table_flag,user_borrow_limit,user_borrow_num);
         response.sendRedirect("borrowList.jsp");
 
     }

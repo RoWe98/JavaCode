@@ -6,6 +6,15 @@ public class BookVO {
     String Name;
     String Author;
     String publish;
+    String table;
+
+    public String getTable() {
+        return table;
+    }
+
+    public void setTable(String table) {
+        this.table = table;
+    }
 
     public BookVO(String id, String name, String author, String publish) {
         super();
