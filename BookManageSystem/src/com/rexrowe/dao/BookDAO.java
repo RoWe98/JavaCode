@@ -12,7 +12,6 @@ import java.util.*;
 
 public class BookDAO {
 
-
     //获取书的信息
     public BookVO getbookInfo(String book_id,String table_flag){
         Connection conn = null;
@@ -21,6 +20,8 @@ public class BookDAO {
         BookVO bookVO = new BookVO("","","","");
         try{
             conn = DbUtil.getConn();
+            //select * from book_tech
+            //select * from book_renwen
             String sql = "select * from book"+"_"+table_flag;
             ps=conn.prepareStatement(sql);
             rs=ps.executeQuery();
@@ -83,6 +84,7 @@ public class BookDAO {
         ResultSet rs = null;
         try{
             conn = DbUtil.getConn();
+            //select * from table_tech
             String sql = "select id from book"+"_"+table_flag;
             ps=conn.prepareStatement(sql);
             rs=ps.executeQuery();
@@ -106,6 +108,7 @@ public class BookDAO {
         ResultSet rs = null;
         try{
             conn = DbUtil.getConn();
+            //select * from book_tech
             String sql = "select * from book"+"_"+table_flag;
             ps=conn.prepareStatement(sql);
             //ps.setString(1,id);

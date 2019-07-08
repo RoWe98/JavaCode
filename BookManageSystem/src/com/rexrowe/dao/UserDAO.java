@@ -129,7 +129,7 @@ public class UserDAO {
         return userVO_borrow_num;
     }
 
-
+    //获取已经借阅的书的id
     public UserVO get_borrow_book_id(String username) {
         UserVO userVO_borrow_book_id = null;
         Connection conn= null;

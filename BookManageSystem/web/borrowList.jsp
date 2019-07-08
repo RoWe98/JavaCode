@@ -37,11 +37,15 @@
     BookBo bookBo = new BookBo();
     int bookNum = bookBo.getBookNum(table_flag);
     int still_borrow = Integer.parseInt(borror_limit)-Integer.parseInt(borror_num);
+    int can_still_borrow = still_borrow - 1;
+    if(can_still_borrow==Integer.parseInt(borror_limit)){
+        can_still_borrow = 0;
+    }
 %>
 <form action = "BorrowServlet" method = "POST">
     <table font-size: 30px>
         <tr>
-            <td>当前借阅的书本,你还可以借<%=still_borrow%>本书</td>
+            <td>当前借阅的书本,你还可以借<%=can_still_borrow%>本书</td>
         </tr>
         <tr>
             <td>书本id</td>

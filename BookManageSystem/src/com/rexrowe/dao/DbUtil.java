@@ -20,7 +20,7 @@ public class DbUtil{
     //获取数据库配置信息并读取
     static {
         try{
-            Properties prop = new Properties();
+            Properties prop = new Properties(); //访问配置文件的工具类
             InputStream in = DbUtil.class.getClassLoader().getResourceAsStream("jdbc.properties");
             prop.load(in);
             driver=prop.getProperty("driver");
@@ -33,7 +33,7 @@ public class DbUtil{
     }
 
 
-    //连接数据库
+    //连接数据库 返回数据库对象
     public static Connection getConn(){
         Connection conn = null;
         try {
